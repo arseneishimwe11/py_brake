@@ -29,7 +29,7 @@ def detect_obstacles(sensor):
         camera_activate()
     else:
         print("No obstacle detected")
-    sleep(0.1)  # Adjust the delay as needed
+    sleep(0.1) 
 
 
 with open('yolov7/data/coco.yaml', 'r') as f:
